@@ -6,7 +6,7 @@ Zed : camera that reproduces the way human vision works
 
 It captures high-definition 3D video with a wide field of view and outputs two synchronized left and right video streams in side-by-side format on USB 3.0
 
-<img src="https://cdn.stereolabs.com/assets/video/basket-boxes.mp4" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Spatial_Map"></img><br/>
+<img src="![image](https://user-images.githubusercontent.com/74947395/164980082-e05e699e-7213-4ef4-a275-893ca4aed4d6.png)" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Depth_Sensing"></img><br/>
 - Depth Sensing
 Depth Map captured by the ZED store a distance value(Z) for each pixel(X,Y) in the image. → expressed in metric units( ex: meters ) and calculated from the back of the left eye of the camera to the scene object
 
