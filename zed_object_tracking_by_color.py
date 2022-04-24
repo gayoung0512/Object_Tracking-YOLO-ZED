@@ -112,6 +112,7 @@ loaded_loc = np.load('./saved_location_center_zed.npy')
 
 t=end-start
 print(f"{t:.5f} sec")
+
 length=len(loaded_loc)
 t_part=t/length #초 간격
 v_sum=0
