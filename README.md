@@ -2,8 +2,22 @@
 
 
 2021-2학기 <object_tracking & speed estimation using Zed cam>
+=============
+Zed
+-------------
 
-language: python
 
-1) Yolo
-2) color
+
+1) Object Detection by Yolo
+
+Yolo V3 & Coco.names 사용
+-> loaded_loc: save list_ball_location
+calculate v_inst
+
+3) Object Detection Using color : 색 추출 기반 속도 측정
+
+Yolo V3 & Coco.names 사용
+-> loaded_loc: save list_ball_location 
+calculate v_inst
+
+=> Zed cam: 화면 분할
