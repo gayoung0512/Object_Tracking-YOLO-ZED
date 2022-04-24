@@ -6,12 +6,23 @@ Zed : camera that reproduces the way human vision works
 
 It captures high-definition 3D video with a wide field of view and outputs two synchronized left and right video streams in side-by-side format on USB 3.0
 
-<img src="![image](https://user-images.githubusercontent.com/74947395/164980082-e05e699e-7213-4ef4-a275-893ca4aed4d6.png)" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Depth_Sensing"></img><br/>
+<img src="https://cdn.stereolabs.com/docs/depth-sensing/images/zed_depth_standard.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Depth_Sensing"></img><br/>
 - Depth Sensing
 Depth Map captured by the ZED store a distance value(Z) for each pixel(X,Y) in the image. → expressed in metric units( ex: meters ) and calculated from the back of the left eye of the camera to the scene object
 
-- Positional tracking overview
+<img src="https://cdn.stereolabs.com/docs/spatial-mapping/images/zed-spatial-mapping.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Spatial_Mapping"></img><br/>
 - Spatial Mapping Overview
+
+spatial mapping (3D reconstruction) is the ability to create a 3D map of the environment.
+
+<img src="https://cdn.stereolabs.com/docs/object-detection/images/object-detection-2d.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="3D_tracking"></img><br/>
+-3D Object Detection Overview
+
+- Positional tracking overview
+
+positional tracking(=motion tracking, match moving) is the ability of a device to estimate its position relative to the world around it. 
+
+it is used to track the movement of a camera or user in 3D space with six degrees of freedom(6DoF)
 
 비전을 위한 이미지 센서로 듀얼렌즈가 장착된 카메라→ 고화질 3D 비디오를 캡쳐할 수 있고, 깊이 인식이 가능하다.
 
